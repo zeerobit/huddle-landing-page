@@ -119,9 +119,12 @@ body {
     border-color: var(--soft_magenta);
   }
 
+  .btn {
+    transition: all 500ms ease-out;
+  }
+
   .btn:hover {
     background-color: var(--soft_magenta);
     color: hsl(0, 0%, 100%) !important;
-    border: transparent;
   }
 }
